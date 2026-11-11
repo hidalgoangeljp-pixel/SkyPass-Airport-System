@@ -1,0 +1,46 @@
+{
+    "passengers": [
+        {
+            "id": 1,
+            "name": "Juan Dela Cruz",
+            "email": "juan@example.com",
+            "phone": "09171234567",
+            "passport": "P1234567"
+        },
+        {
+            "id": 2,
+            "name": "Angel Joy Hidalgo",
+            "email": "angel@gmail.com",
+            "phone": "100000000000",
+            "passport": "024486"
+        }
+    ],
+    "flights": [
+        {
+            "id": 1,
+            "code": "SP101",
+            "origin": "Manila",
+            "destination": "Cebu",
+            "departure": "2026-12-01T08:00",
+            "status": "Scheduled"
+        },
+        {
+            "id": 2,
+            "code": "1145",
+            "origin": "butuan",
+            "destination": "manila",
+            "departure": "2026-11-11T18:36",
+            "status": "Departed"
+        }
+    ],
+    "tickets": [
+        {
+            "id": 1,
+            "reference": "SP-261111-2128",
+            "passenger": "Juan Dela Cruz",
+            "flight": "SP101",
+            "route": "Manila \u2192 Cebu",
+            "created": "2026-11-11 09:37:06"
+        }
+    ]
+}
